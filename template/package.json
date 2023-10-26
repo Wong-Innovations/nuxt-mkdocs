@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "serve": "npm run dev --prefix .nuxt-mkdocs",
+    "generate": "npm run generate --prefix .nuxt-mkdocs"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-mkdocs",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Create a Nuxt Content App in seconds.",
+  "bin": "cli.js",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "ora": "^7.0.1"
+  },
+  "author": "Wong-Innovations",
+  "license": "MIT",
+  "engines": {
+    "node": ">=v14.20.1"
+  }
+}
