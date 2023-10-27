@@ -2,7 +2,14 @@
   "name": "nuxt-mkdocs",
   "version": "0.0.1",
   "type": "module",
+  "repository": "github:Wong-Innovations/nuxt-mkdocs",
+  "homepage": "https://github.com/Wong-Innovations/nuxt-mkdocs#readme",
   "description": "Create a Nuxt Content App in seconds.",
+  "keywords": [
+    "mkdocs",
+    "nuxt",
+    "vue"
+  ],
   "bin": "cli.js",
   "dependencies": {
     "fs-extra": "^11.1.1",
