@@ -1,6 +1,6 @@
 # nuxt-mkdocs [![npm](https://img.shields.io/npm/v/nuxt-mkdocs.svg)](https://www.npmjs.com/package/nuxt-mkdocs)
 
-Combining the style and flexibility of [Nuxt Content](https://content.nuxt.com/) with the syntax of [MkDocs](https://www.mkdocs.org/).
+Combining the style and flexibility of [Nuxt Content](https://content.nuxt.com/) with the simplicity of [MkDocs](https://www.mkdocs.org/).
 
 ## Usage
 

@@ -41,6 +41,11 @@ try {
     force: true,
   });
 
+  fs.rmSync(path.join(nuxtContentPath, "server"), {
+    recursive: true,
+    force: true,
+  });
+
   // load the nuxt config file
   let nuxtConfig = fs.readFileSync(
     path.join(nuxtContentPath, "nuxt.config.ts"),
@@ -75,9 +80,10 @@ try {
 
   fs.writeFileSync(path.join(projectPath, ".gitignore"), `.nuxt-mkdocs\ndist`);
 
-  // shouldn't be needed
-  // // remove the packages needed for cli
-  // fs.execSync("npm uninstall ora cli-spinners");
+  if (fs.existsSync(path.join(projectPath, "package-lock.json"))) {
+    fs.rmSync(fs.existsSync(path.join(projectPath, "package-lock.json")));
+  }
+
   initSpinner.succeed();
 
   console.log("The installation is done!");
